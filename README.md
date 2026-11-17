@@ -118,5 +118,5 @@ curl -u user1:wrongpass http://localhost:8000/login
 3. `uv venv`
 4. `source .venv/bin/activate`
 5. `uv sync`
-6. `uvicorn app.main:app --reload`
+6. `uvicorn application.main:app --reload`
 7. http://127.0.0.1:8000/docs
